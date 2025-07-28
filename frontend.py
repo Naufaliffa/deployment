@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # API endpoint
-API_URL = "http://127.0.0.1:8000/predict"
+API_URL = "http://192.168.100.10:8501/predict"
 
 # Page name (At browser tab)
 st.set_page_config(page_title="Employee Churn App - TalentaHub", page_icon="📊")
